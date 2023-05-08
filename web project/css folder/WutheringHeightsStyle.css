@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+h1{
+    font-family: 'Sigmar', cursive;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+th, td, p{
+    font-size: 18px; 
+}
+
+h2,th, td, p{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    
+}
+
+#carouselExampleAutoplaying {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#InformationBlock{
+    border: 2px solid black;
+}
+
+#TopOfSelected {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+
+.back-button {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.back-button:hover {
+    background-color: #B90000;
+}
+
+#Price1 {
+    margin-top: 15px;
+}
+
+.description-container {
+    border: 2px solid black;
+}

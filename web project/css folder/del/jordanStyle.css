@@ -1,0 +1,83 @@
+.hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.buy-button {
+    margin-top: 15px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #4caf50;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buy-button:hover {
+    background-color: #3e8e41;
+}
+
+#carouselExampleAutoplaying {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#InformationBlock{
+    border: 2px solid black;
+}
+
+#TopOfSelected {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.basket-button {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: gray;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.basket-button:hover {
+    background-color: rgb(66, 66, 66); 
+}
+
+.back-button {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.back-button:hover {
+    background-color: #B90000;
+}
+
+#Price1 {
+    margin-top: 15px;
+}
+
+.description-container {
+    border: 2px solid black;
+}
+
+#header {
+    background-image: url("header.jpg");
+}

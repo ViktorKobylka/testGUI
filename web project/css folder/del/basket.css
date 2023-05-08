@@ -1,0 +1,68 @@
+.container{
+    @import url('https://fonts.googleapis.com/css2?family=Foldit&family=Lato&family=Poppins:wght@500&family=Roboto+Mono:ital,wght@1,300&display=swap');
+    font-family: 'Roboto Mono', monospace;
+}
+.table-container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+  .table-container th,
+  .table-container td {
+    padding: 20px;
+    font-size: 24px;
+}  
+
+h1{
+    @import url('https://fonts.googleapis.com/css2?family=Foldit&family=Lato&family=Poppins:wght@500&display=swap');
+    font-family: 'Foldit', cursive;
+}
+
+.table-container button {
+    margin: 4px 2px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+  }
+
+#next {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+#next:hover {
+    background-color: #3e8e41;
+}
+ 
+#back {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+#back:hover, .table-container button:hover {
+    background-color:#B90000
+}
