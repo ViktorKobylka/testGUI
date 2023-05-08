@@ -1,0 +1,173 @@
+<!--Authors: James Lawrence, Viktor Kobylka, Dmytro Kupreiev-->
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- add encoding from machine code-->
+  <meta charset="UTF-8">
+  <!-- add control of versions of the page-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- add control to dimensions and scaling of the page-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- add bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- title of website-->
+  <title>BOOKSTORE</title>
+  <!-- add css of the html file mainpage-->
+  <link rel="stylesheet" href="../css folder/main.css">
+</head>
+<body>
+    <!-- class with all elements of the structure -->
+    <div class="container text-center">
+        <!-- first row -->
+             <div class="bg-secondary">
+              <!-- column with the name of the shop -->
+                <div class="justify-content-start col-sm-12 col-md-12 col-lg-12 p-4">
+                    <h1>BOOKSTORE</h1>
+                </div>
+            </div>
+        <!-- second row -->
+        <div class="row p-5 text-center">
+          <!-- column with the item of the shop -->
+          <div class="el col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="01">
+                <!-- image of the item and link to the information about the item-->
+                <a href="jordan.html"><img src="images/jordan_main.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="jordan.html"><div class="text_size">Micheal Jordan The Life</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£25.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="el col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="02">
+                <!-- image of the item and link to the information about the item-->
+                <a href="Gatsby.html"><img src="images\TheGreatG.jpg" alt="book"  class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="Gatsby.html"><div class="text_size">The Great Gatsby</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£14.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>    
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="el col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="03">
+                <!-- image of the item and link to the information about the item-->
+                <a href="WutheringHeights.html"><img src="images\wutheringH2.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="WutheringHeights.html"><div class="text_size">Wuthering Heights</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£23.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="el col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="04">
+                <!-- image of the item and link to the information about the item-->
+                <a href="MadlyDeeply.html"><img src="images\madly_main.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="MadlyDeeply.html"><div class="text_size">Madly Deeply</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£15.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+           <!-- column with the basket of the shop-->
+          <div class="el col-md-12 col-sm-12 col-lg-4 p-3">
+            <!-- class of the basket -->
+            <div class="container_basket bg-light text-center">
+              <!-- class of the body of the basket -->
+              <div class="basket_body ">
+                <div id="order">Your order</div>
+                <!-- class of items in basket-->
+                <div class="select-output p-1">
+                </div>  
+              </div>
+
+              <!-- button order-->
+              <div>
+                <button order id="button_order">Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- third row -->
+        <div class="row p-5 text-center">
+          <!-- column with the item of the shop -->
+          <div class="col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="05">
+                <!-- image of the item and link to the information about the item-->
+                <a href="MurderBeforeEvensong.html"><img src="images\murderBE.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="MurderBeforeEvensong.html"><div class="text_size">Murder Before Evensong</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£14.50</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="06">
+                <!-- image of the item and link to the information about the item-->
+                <a href="ASpoonfulofMurder.html"><img src="images\spoonfulOM.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="ASpoonfulofMurder.html"><div class="text_size">A Spoonful of Murder</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£20.50</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="07">
+                <!-- image of the item and link to the information about the item-->
+                <a href="AnnCleeves.html"><img src="images\annC.jpg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="AnnCleeves.html"><div class="text_size">Ann Cleeves</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£17.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>
+          </div>
+          <!-- column with the item of the shop -->
+          <div class="col-md-6 col-sm-3 col-lg-2 p-3">
+            <!-- class of the item-->
+            <div class="book" data-id="08">
+                <!-- image of the item and link to the information about the item-->
+                <a href="MurderMostroyal.html"><img src="images\murderMR.jpeg" alt="book" class="book-img"></a>
+                <!-- name of the item and link to the information about the item-->
+                <h5 class="book-name p-1"><a href="MurderMostroyal.html"><div class="text_size">Murder Most royal</div></a></h5>
+                <!-- price of the item-->
+                <h4 class="price">£8.99</h4>
+                <!-- button buy-->
+                <button item-select id="buy">Buy</button>
+              </div>  
+          </div>
+          <!-- empty column -->
+          <div class="col-md-12 col-sm-12 col-lg-4 p-3"></div>
+        </div>
+      </div>
+      <!-- add bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <!-- add file js of basket-->
+      <script src="../js_folder/index.js"></script>
+<body>
+</html>

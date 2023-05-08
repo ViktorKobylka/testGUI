@@ -1,0 +1,142 @@
+/* Author: James Lawrence*/
+
+/*connect 2 fonts to the file*/
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/*set size to the images of items in the page*/
+img{
+    width: 100%;
+    height: 250px; 
+    display: block;
+}
+
+/*set size to the text under items in the page*/
+.text_size{
+    width: 100%;
+    height: 30px; 
+}
+
+/*set font Sigmar to all h1 elements*/
+h1{
+    font-family: 'Sigmar', cursive;
+}
+
+/*set font Playfair Display to all h4 and h5 elements and make them uppercase*/
+h4, h5{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+/*set font size to all h5 elements and make them bold*/
+h5{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*remove text formatting to all a elements and make them black*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*set font size to all h4 elements*/
+h4{
+    font-size: 25px;
+}
+
+/*set margin area on the top, height, remove outline and border, set the color of background, 
+set the color of text, make text uppercase, set the cursor property, make the total width 100% 
+to the elements with id "buy"*/
+#buy{
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}  
+
+/*set the color of the background to the hover selector of the id "buy"*/
+#buy:hover {
+    background-color: #3e8e41;
+}
+
+/*set space in class "container_basket"*/
+.container_basket{
+    padding: 2ch;
+}
+
+/*set size of font to all elements and make them uppercase in class "book_basket"*/
+.book_basket{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*make text bold and set the size of font in id "order"*/
+#order{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*set the size and radius of border to elements in id "img_basket"*/
+#img_basket{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/*set color to all elements in id "price_color"*/
+#price_color{
+    color: #F50000;
+}
+
+/*set margin area on the top, remove outline and border, set the color of background, 
+set the size of font, set the color of text, make text uppercase, set the cursor property, make the total width 100% 
+to the elements with id "delete"*/
+#delete{
+    margin: 2px 1px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    font-size: 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+/*set the color of the background to the hover selector of the id "delete"*/
+.delete:hover {
+    background-color: #B90000; 
+}
+
+/*set margin area on the top, remove outline and border, set the color of background, 
+set the size of font, set the color of text, make text uppercase, set the cursor property, make the total width 100% 
+to the elements with id "delete"*/
+#button_order{
+    margin: 2px 1px;
+    outline: none;
+    border: none;
+    background-color: #7FC7FF;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}  
+
+/*set the color of the background to the hover selector of the id "button_order"*/
+.button_order:hover {
+    background-color: #2271B3; 
+}
+
